@@ -1,25 +1,33 @@
 import { Human } from './../src/galactic.js';
 
 describe('Human', function() {
-  let humanAge;
+  let chris;
 
   beforeEach(function() {
-    humanAge = new Human(38, 'male');
+    chris = new Human(38, 'male');
   });
 
   it('should take the users gender and return life expectancy', function() {
-    expect(gender.lifeExpectancy()).toEqual(76);
+    expect(chris.lifeExpectancy()).toEqual(76);
   })
 
   it('should take a users age and return it in mercury years', function() {
-    expect(humanAge.mercYears()).toEqual(158);
+    expect(chris.mercYears()).toEqual(158);
   })
 
   it('should take a users age and return it in venus years', function() {
-    expect(humanAge.venYears()).toEqual(61);
+    expect(chris.venYears()).toEqual(61);
   })
 
-  it('should take a users age and return it in venus years', function() {
-    expect(humanAge.marsYears()).toEqual(20);
+  it('should take a users age and return it in mars years', function() {
+    expect(chris.marsYears()).toEqual(20);
+  })
+
+  it('should take a users age and return it in jupiter years', function() {
+    expect(chris.jupiterYears()).toEqual(3);
+  })
+
+  it('should take a users age, calculate years left based on life expectancy, and return it in mercury years', function() {
+    expect(chris.mercLifeExp().toEqual(158)); //my life is half over!!
   })
 })
