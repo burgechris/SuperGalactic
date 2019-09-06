@@ -10,8 +10,11 @@ _{This is a detailed description of your application. Its purpose and usage.  Gi
 
 ## Setup/Installation Requirements
 
+## Specs
+
 | Behavior | Input | Output |
 | ------------- |:-------------:| -----:|
+||||
 |Earth year equivalent to Mercury Year|1 Mercury Year|.24 Earth Years|
 |Earth year equivalent to Venus Year|1 Venus Year|.62 Earth Years|
 |Earth year equivalent to Mars Year|1 Mars Year|1.88 Earth Years|
