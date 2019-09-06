@@ -4,6 +4,14 @@ export class Human {
   this.gender = gender;
  }
 
+ validAge() {
+   if(this.age >= 1) {
+     return true;
+   } else {
+     alert('Please enter an age greater than 1')
+   }
+ }
+
  lifeExpectancy() {
    if(this.gender === 'male'){
      return 76;

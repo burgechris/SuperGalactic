@@ -7,6 +7,10 @@ describe('Human', function() {
     chris = new Human(38, 'male');
   });
 
+  it('should validate the users age as greater than 1', function() {
+    expect(chris.validAge()).toEqual(true);
+  })
+
   it('should take the users gender and return life expectancy', function() {
     expect(chris.lifeExpectancy()).toEqual(76);
   })
