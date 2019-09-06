@@ -33,6 +33,14 @@ export class Human {
  mercLifeExp() {
    return Math.floor((this.lifeExpectancy() - this.age) / .24);
  }
+
+ venLifeExp() {
+   return Math.floor((this.lifeExpectancy() - this.age) / .62);
+ }
+
+ marsLifeExp() {
+   return Math.floor((this.lifeExpectancy() - this.age) / 1.88);
+ }
 }
 
 chris.lifeExpectancy();

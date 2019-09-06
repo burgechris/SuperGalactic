@@ -38,4 +38,8 @@ describe('Human', function() {
   it('should take a users age, calculate years left based on life expectancy, and return it in mars years', function() {
     expect(chris.marsLifeExp().toEqual(20));
   })
+
+  it('should take a users age, calculate years left based on life expectancy, and return it in jupiter years', function() {
+    expect(chris.jupLifeExp().toEqual(3));
+  })
 })
