@@ -1,5 +1,3 @@
-const chris = new Human(38, 'male');
-
 export class Human {
   constructor(age, gender){
   this.age = age;
@@ -46,5 +44,7 @@ export class Human {
    return Math.floor((this.lifeExpectancy() - this.age) / 11.86);
  }
 }
+
+const chris = new Human(38, 'male');
 
 chris.lifeExpectancy();
