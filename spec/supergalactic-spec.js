@@ -4,11 +4,11 @@ describe('Human', function() {
   let humanAge;
 
   beforeEach(function() {
-    humanAge = new Human(38,78);
+    humanAge = new Human(38);
   });
 
   it('should take a users age and return it in mercury years', function() {
-    expect(age.mercYears()).toEqual(158);
+    expect(humanAge.mercYears()).toEqual(158);
   })
 })
 

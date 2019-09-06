@@ -1,7 +1,6 @@
 export class Human {
-  constructor(age, gender) {
+  constructor(age){
   this.age = age;
-  this.gender = gender;
  }
 
  mercYears() {
