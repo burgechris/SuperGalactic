@@ -1,4 +1,4 @@
-import { mercYears } from './../src/galactic.js';
+import { Human } from './../src/galactic.js';
 
 describe('Human', function() {
   let humanAge;
