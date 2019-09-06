@@ -12,11 +12,12 @@ _{This is a detailed description of your application. Its purpose and usage.  Gi
 
 | Behavior | Input | Output |
 | ------------- |:-------------:| -----:|
+|Earth year equivalent to Mercury Year|1 Mercury Year|.24 Earth Years|
+|Earth year equivalent to Venus Year|1 Venus Year|.62 Earth Years|
+|Earth year equivalent to Mars Year|1 Mars Year|1.88 Earth Years|
+|Earth year equivalent to Jupiter Year|1 Jupiter Year|11.86 Earth Years|
+|Calculate Earth Years to Mercury Years|20 Earth Years|83.333 Mercury Years|
 ||||
-||||
-||||
-||||
-
 
 _{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
 
