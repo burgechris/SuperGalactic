@@ -1,4 +1,4 @@
-export function Human {
+export class Human {
   constructor(age, gender){
   this.age = age;
   this.gender = gender;
@@ -19,11 +19,12 @@ export function Human {
  venYears() {
    return Math.floor(this.age / .62);
  }
+
+ marsYears() {
+   return Math.floor(this.age / 1.88);
+ }
+
+ jupiterYears() {
+   return Math.floor(this.age / 11.86);
+ }
 }
-
-
-// export function marYears(earthYear){
-//   let marsYears = 0;
-//   marsYears = Math.floor(earthYear / 1.88);
-//   return marsYears;
-// }

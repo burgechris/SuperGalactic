@@ -17,7 +17,7 @@ module.exports = {
     new UglifyJsPlugin({sourceMap: true}),
     new CleanWebpackPlugin(['dist']),
     new HtmlWebpackPlugin( {
-      title: 'Roman Numeral Converter',
+      title: 'Supergalactic Age Calculator',
       template: './src/index.html',
       inject: 'body'
     })

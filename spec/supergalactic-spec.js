@@ -1,4 +1,4 @@
-import { Human } from '../src/galactic.js';
+import { mercYears } from './../src/galactic.js';
 
 describe('Human', function() {
   let humanAge;
@@ -17,5 +17,9 @@ describe('Human', function() {
 
   it('should take a users age and return it in venus years', function() {
     expect(humanAge.venYears()).toEqual(61);
+  })
+
+  it('should take a users age and return it in venus years', function() {
+    expect(humanAge.marsYears()).toEqual(20);
   })
 })

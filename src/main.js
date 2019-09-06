@@ -1,4 +1,4 @@
-// import { mercYears } from './galactic.js';
-// import $ from 'jquery';
+import { Human } from './galactic.js';
 import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import $ from 'jquery';
