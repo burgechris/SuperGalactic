@@ -1,3 +1,12 @@
+class Human {
+  constructor(name, age, gender) {
+  this.name = name;
+  this.age = age;
+  this.gender = gender;
+ }
+}
+
+
 export function mercYears(earthYear){
   let mercuryYears = 0;
   mercuryYears = Math.floor(earthYear / .24);
