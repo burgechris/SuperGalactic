@@ -30,4 +30,12 @@ describe('Human', function() {
   it('should take a users age, calculate years left based on life expectancy, and return it in mercury years', function() {
     expect(chris.mercLifeExp().toEqual(158)); //my life is half over!!
   })
+
+  it('should take a users age, calculate years left based on life expectancy, and return it in venus years', function() {
+    expect(chris.venLifeExp().toEqual(61));
+  })
+
+  it('should take a users age, calculate years left based on life expectancy, and return it in mars years', function() {
+    expect(chris.marsLifeExp().toEqual(20));
+  })
 })
