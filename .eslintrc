@@ -17,11 +17,4 @@
       "no-console": "warn",
       "no-debugger": "warn"
   }
-  /* eslint no-unused-vars: ["error", { "args": "none" }] */
-  .then((response) => {
-    alert('ok')
-  })
-  .catch((error) => {
-    alert(error.message)
-  })
 }
