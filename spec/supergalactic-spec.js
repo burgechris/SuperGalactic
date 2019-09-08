@@ -1,4 +1,4 @@
-import { Human } from '../src/galactic.js';
+import { Human } from './../src/galactic.js';
 
 describe('Human', function() {
   let chris;
@@ -13,6 +13,10 @@ describe('Human', function() {
 
   it('should take the users gender and return life expectancy', function() {
     expect(chris.lifeExpectancy()).toEqual(76);
+  })
+
+  it('should take the users age and check it if they have surpassed life expectancy', function() {
+    expect(chris.surpassedLife()).toEqual(false);
   })
 
   it('should take a users age and return it in mercury years', function() {
